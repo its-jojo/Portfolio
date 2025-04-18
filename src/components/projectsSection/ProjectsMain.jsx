@@ -8,14 +8,14 @@ const projects = [
     name: "Shopsy",
     year: "March 2025",
     align: "left",
-    image: "../../public/images/website-img-2.png",
+    image: "images/website-img-2.png",
     link: "https://github.com/its-jojo/Shopsy.git",
   },
   {
     name: "Myntra Clone Website",
     year: "Nov 2024",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: "images/website-img-1.jpg",
     link: "https://github.com/its-jojo/Shopsy.git",
   },
   
@@ -23,14 +23,14 @@ const projects = [
     name: "To Do List",
     year: "July 2024",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: "images/website-img-3.jpg",
     link: "https://github.com/its-jojo/todolist.git",
   },
   {
     name: "Tic Tac Toe",
     year: "May 2024",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: "images/website-img-4.jpg",
     link: "https://github.com/its-jojo/tic-tac-toe.git",
   },
 ];
