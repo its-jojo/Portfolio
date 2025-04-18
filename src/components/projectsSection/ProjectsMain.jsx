@@ -5,32 +5,33 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Shopsy",
+    year: "March 2025",
+    align: "left",
+    image: "../../public/images/website-img-2.png",
+    link: "https://github.com/its-jojo/Shopsy.git",
+  },
+  {
+    name: "Myntra Clone Website",
+    year: "Nov 2024",
     align: "right",
     image: "../../public/images/website-img-1.jpg",
-    link: "#",
+    link: "https://github.com/its-jojo/Shopsy.git",
   },
+  
   {
-    name: "Moola App",
-    year: "Sept2022",
-    align: "left",
-    image: "../../public/images/website-img-2.webp",
-    link: "#",
-  },
-  {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "To Do List",
+    year: "July 2024",
     align: "right",
     image: "../../public/images/website-img-3.jpg",
-    link: "#",
+    link: "https://github.com/its-jojo/todolist.git",
   },
   {
-    name: "Bank of Luck",
-    year: "May2024",
+    name: "Tic Tac Toe",
+    year: "May 2024",
     align: "left",
     image: "../../public/images/website-img-4.jpg",
-    link: "#",
+    link: "https://github.com/its-jojo/tic-tac-toe.git",
   },
 ];
 
@@ -54,6 +55,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}

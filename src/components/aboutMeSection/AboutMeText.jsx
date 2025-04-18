@@ -5,13 +5,13 @@ const AboutMeText = () => {
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
       <p>
-        I’m Abdelrahman, a web developer instructor with a passion for teaching
-        and coding. I specialize in React and front-end development, helping
-        students build real-world projects and master modern web technologies. I
-        also run a YouTube channel, CodeNest, where I create tutorials and
-        courses to guide aspiring developers in their journey toward successful
-        careers in tech. Outside of coding, I enjoy continuous learning and
-        sharing knowledge to inspire others to achieve their goals.
+      Hi, I’m Jyoti Mehra, a passionate and driven second-year Bachelor of Computer Applications (BCA) student. I'm fascinated by the ever-evolving world of technology and constantly seek opportunities to expand my knowledge and skills.
+
+With a strong foundation in HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS, and the MERN Stack, I bring both creativity and technical expertise to web development. I also have hands-on experience with advanced Microsoft Excel, making me proficient in handling data-driven tasks and analytical work.
+
+I'm currently seeking internship opportunities where I can apply my skills, contribute meaningfully to real-world projects, and continue learning alongside experienced professionals.
+
+💡 I believe in lifelong learning and am always eager to embrace new challenges in the tech space. Let’s connect and grow together! 🚀
       </p>
       <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
         <Link

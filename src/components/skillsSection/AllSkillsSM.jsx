@@ -5,10 +5,11 @@ import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { PiMicrosoftExcelLogo } from "react-icons/pi";
+import { RiTailwindCssFill, RiTailwindCssLine } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-
+import { BsBootstrap, BsFillBootstrapFill } from "react-icons/bs";
 const skills = [
   {
     skill: "HTML",
@@ -22,10 +23,7 @@ const skills = [
     skill: "JavaScript",
     icon: IoLogoJavascript,
   },
-  {
-    skill: "TypeScript",
-    icon: SiTypescript,
-  },
+ 
   {
     skill: "ReactJS",
     icon: FaReact,
@@ -40,8 +38,16 @@ const skills = [
   },
   {
     skill: "TailwindCSS",
-    icon: RiTailwindCssFill,
+    icon: RiTailwindCssLine,
   },
+  {
+      skill: "MS Excel",
+      icon: PiMicrosoftExcelLogo,
+    },
+    {
+      skill: "Bootstrap",
+      icon: BsFillBootstrapFill,
+    },
 ];
 
 const AllSkillsSM = () => {
