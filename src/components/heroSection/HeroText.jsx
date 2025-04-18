@@ -30,14 +30,11 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-<<<<<<< HEAD
-      A Dedicated Web Developer in the making , <br /> skilled in React and the MERN Stack ,
-      <br/> eager to gain industry experience.
+        <div className="text-lg mt-4">
+  A Dedicated Web Developer in the making, <br /> skilled in React and the MERN Stack, <br />
+  eager to gain industry experience.
+</div>
 
-=======
-        A Passionate Web Developer and Instructor <br /> with 3 years of
-        experience.
->>>>>>> 266a3aa (first commit)
       </motion.p>
     </div>
   );
